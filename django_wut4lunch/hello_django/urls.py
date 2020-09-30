@@ -8,6 +8,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'wut4lunch.views.index', name='home'),
+    url('', 'wut4lunch.views.index', name='home'),
     url(r'^newlunch', 'wut4lunch.views.newlunch', name='newlunch'),
 )
